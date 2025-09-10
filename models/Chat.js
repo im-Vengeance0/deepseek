@@ -1,4 +1,3 @@
-import { time } from "console";
 import mongoose from "mongoose";
 
 const ChatSchema = new mongoose.Schema(

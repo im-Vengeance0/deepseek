@@ -2,8 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import {assets} from '@/assets/assets'
 import { useAppContext } from '@/context/AppContext'
-import { set } from 'mongoose'
 import toast from 'react-hot-toast'
+import axios from 'axios'
 
 const ChatLabel = ({openMenu, setOpenMenu}) => {
 

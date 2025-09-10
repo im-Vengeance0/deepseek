@@ -2,8 +2,9 @@ export const maxDuration = 60; // in seconds
 import { getAuth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
-import { Chat } from "@models/Chat";
 import connectDB from "@/config/db";
+import Chat from '@/models/Chat'
+
 
 // Initialize the OpenAI client with DeepSeek  base URL and API key
 const openai = new OpenAI({
